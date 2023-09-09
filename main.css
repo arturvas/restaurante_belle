@@ -20,3 +20,7 @@
 .navbar-brand {
   font-family: "Lobster", cursive;
 }
+
+.navbar-toggler {
+  background-color: white;
+}
