@@ -6,14 +6,15 @@
   background-color: tomato;
 }
 
-.nav .nav-item .nav-link.active {
+#cabecalho .nav .nav-item .nav-link.active {
   background-color: white;
   color: tomato;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar .navbar-brand,
-.navbar .navbar-brand:hover {
+.navbar .navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
   color: white;
 }
 
@@ -29,10 +30,20 @@
   color: tomato;
 }
 
-#sobre__o__restaurante {
+#sobre__o__restaurante,
+#cardapio {
   background-color: #ffe6e6;
 }
 
 .text-colorful {
+  color: tomato;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: tomato;
+  color: white;
+}
+
+.nav-cardapio .nav-link:hover {
   color: tomato;
 }
