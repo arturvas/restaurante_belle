@@ -1,52 +1,62 @@
+:root {
+  --cor-primaria: navy;
+  --cor-secundaria: white;
+  --cor-terciaria: rgb(227, 227, 227);
+}
+
 .body {
   font-family: "Poppins", sans-serif;
 }
 
 .navbar {
-  background-color: tomato;
+  background-color: var(--cor-primaria);
 }
 
 #cabecalho .nav .nav-item .nav-link.active {
-  background-color: white;
-  color: tomato;
+  background-color: var(--cor-secundaria);
+  color: var(--cor-primaria);
 }
 
 #cabecalho .nav .nav-link,
 .navbar .navbar-brand,
 .navbar .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
-  color: white;
+.nav-parceiros .nav-link.active:hover {
+  color: var(--cor-secundaria);
 }
 
 .navbar-toggler {
-  background-color: #ffe6e6;
+  background-color: var(--cor-terciaria);
 }
 
 .section-title {
-  font-family: "Lobster", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+.extra-bold {
+  font-weight: 800;
 }
 
 .section-title span {
-  color: tomato;
+  color: var(--cor-primaria);
 }
 
-#sobre__o__restaurante,
-#cardapio {
-  background-color: #ffe6e6;
+#sobre__a__codev,
+#parceiros {
+  background-color: var(--cor-terciaria);
 }
 
 .text-colorful {
-  color: tomato;
+  color: var(--cor-primaria);
 }
 
-.nav-cardapio .nav-link.active,
+.nav-parceiros .nav-link.active,
 #fale__conosco button {
-  background-color: tomato;
-  color: white;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
 }
 
-.nav-cardapio .nav-link:hover {
-  color: tomato;
+.nav-parceiros .nav-link:hover {
+  color: var(--cor-primaria);
 }
 
 .social-links li {
@@ -62,4 +72,9 @@
   .carousel-item img {
     height: 280px;
   }
+}
+
+footer {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
 }
